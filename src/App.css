@@ -14,7 +14,7 @@
 }
 .center-text {
   text-align: center;
-  font-size: 3.2rem;
+  font-size: 2.4rem;
   padding-top: 0.5rem;
 }
 .text {
@@ -39,11 +39,11 @@
   margin: 3rem 15rem;
 }
 .my-name {
-  font-size: 5rem;
+  font-size: 3.6rem;
   white-space: nowrap;
 }
 .dec {
-  font-size: 1.875rem;
+  font-size: 1.500rem;
   margin-top: 0.5rem;
 }
 .dec-div {
@@ -99,7 +99,7 @@
   font-size: 3rem;
 }
 .infoPara {
-  padding: 5rem;
+  padding: 3rem;
 }
 .infoPara p {
   font-size: 1.563rem;
@@ -305,25 +305,47 @@ body.dark {
     font-size: 20px;
   }
 
-  /* About Me section start here */
-  .about_div {
-    display: block;
+
+  @media (max-width: 768px) {
+    .vector-img {
+      width: 100%;
+      max-width: 15rem; /* Further reduce image size on small screens */
+    }
+  
+    .infoPara {
+      padding: rem; /* Further reduce padding for smaller screens */
+    }
+  
+    .iam {
+      font-size: 1.5rem; /* Reduce 'I'm' font size further on mobile */
+    }
+  
+    .infoPara p {
+      font-size: 0.890rem; /* Smaller font size for readability on mobile */
+    }
   }
-  .my-imgDiv {
-    margin-top: 3rem;
-  }
-  .vector-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20.75rem;
-  }
-  .infoPara {
-    padding: 2rem;
-  }
-  .infoPara p {
-    letter-spacing: normal;
-  }
+  
+  /* Adjusting About Me section for mobile */
+.about_div {
+  display: block;
+}
+
+.my-imgDiv {
+  margin-top: 3rem;
+}
+
+.vector-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20.75rem;
+}
+
+.infoPara {
+  padding: 1.5rem; /* Reduced padding for mobile */
+  text-align: left; /* Ensures text alignment */
+}
+
   /* Skills section start here */
 
   .skill_name {

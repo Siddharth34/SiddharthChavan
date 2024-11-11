@@ -24,15 +24,19 @@ const Skills = () => {
     },  
     {
       title: "Bash scripting",
-      icon: "https://img.icons8.com/color/50/bash.png",
+      icon: "https://img.icons8.com/color/49/bash.png",
     },
     {
-      title: "Cisco-CUCM",
-      icon: "https://img.icons8.com/plasticine/54/cisco-webex-meetings.png",
+      title: "VMware",
+      icon: "https://img.icons8.com/?size=50&id=38687&format=png&color=000000",
     },
     {
-      title: "JSON/YAML",
+      title: "JSON",
       icon: "https://img.icons8.com/pulsar-color/50/json.png",
+    },
+    {
+      title: "YAML",
+      icon: "https://img.icons8.com/?size=49&id=67360&format=png&color=000000",
     },
     {
       title: "Jenkins",
@@ -51,25 +55,21 @@ const Skills = () => {
       icon: "https://img.icons8.com/color/48/000000/mysql--v1.png",
     },
     {
-      title: "HTML",
-      icon: "https://img.icons8.com/color/48/000000/html-5--v1.png",
-    },
-    {
-      title: "CSS",
-      icon: "https://img.icons8.com/color/48/000000/css3.png",
-    },
-    {
       title: "React JS",
       icon: "https://img.icons8.com/color/45/000000/react-native.png",
-    },
-    {
-      title: "PHP",
-      icon: "https://img.icons8.com/offices/52/000000/php-logo.png",
     },   
     {
       title: "Django",
       icon: "https://img.icons8.com/nolan/50/django.png",
     }, 
+    {
+      title: "HTML",
+      icon: "https://img.icons8.com/color/48/000000/html-5--v1.png",
+    },
+    {
+      title: "CSS",
+      icon: "https://img.icons8.com/color/48.5/000000/css3.png",
+    }
   ];
 
   return (

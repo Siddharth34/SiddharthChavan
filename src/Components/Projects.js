@@ -26,7 +26,7 @@ const Projects = () => {
           <div className="card text-col card-cl">
             <img src={ProjectImg3} />
             <div className="card-body">
-              <h5 className="card-title">AWS - Live (Website  )</h5>
+              <h5 className="card-title">End-to-End AWS Cloud Deployment</h5>
               <p className="card-text">      
               Throughout the project, I demonstrated proficiency in AWS services, including RDS, S3, EC2, and Git, while also showcasing my ability to effectively configure, deploy, and manage infrastructure components.      
               </p>

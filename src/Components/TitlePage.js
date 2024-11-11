@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import ProfileImg from "../img/myp.png";
+import ProfileImg from "../img/LinkedIn photo-photoaidcom-cropped.jpg";
 import ContextTheme from "../Context/ContextTheme";
 import AppTheme from "../color";
 
@@ -23,14 +23,15 @@ const TitlePage = () => {
 
         <div className="mdq info">
           <div className="mdq">
-            <h2 className="my-name">Siddharth Chavan</h2>
+            <h1 className="my-name">Siddharth Chavan</h1>
             <h5 className="dec">
-              <i class="fas fa-code webIcon dec" /> Cloud | Web development
+              {/* <i class="fas fa-code webIcon dec" />  */}
+              Assistant System Engineer
             </h5>
           </div>
 
           <div className="Btn-Div">
-            <a href="https://docs.google.com/document/d/1JWzZ5yzEdOHec4pivDaMFAqnf5W_4H1owwKLgDl7G00/edit?usp=sharing"  target="_blank" className="ResumeText">
+            <a href="https://drive.google.com/file/d/16MkquUEGDSy2F4E6jvBCj0qrUqdgBt4r/view?usp=sharing"  target="_blank" className="ResumeText">
               <button className="ResumeBtn">Resume</button>
             </a>
           </div>
@@ -61,11 +62,11 @@ const TitlePage = () => {
               </a>
             </div>
 
-            <div className="Icon">
+            {/* <div className="Icon">
               <a href="https://www.instagram.com/siddharrrtthh/" target="_blank">
                 <img src="https://img.icons8.com/fluency/50/000000/instagram-new.png" />
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

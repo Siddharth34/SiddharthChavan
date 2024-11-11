@@ -27,7 +27,7 @@ const AboutMe = () => {
           <div className="infoPara">
             <span className="iam">I'm </span>
             <p>
-            Siddharth, and I work as a System Administrator at TCS. I have a strong understanding of AWS architecture as well as On-premises infrastructure. I have been fortunate enough to contribute to the design, implementation, and maintenance of robust infrastructures.
+            Siddharth, a System Engineer at TCS with expertise in AWS and on-premises infrastructure. As an AWS Certified Solutions Architect Associate, I specialize in EC2, S3, IAM, CloudWatch, CloudFormation and VMware, focusing on automation and uptime optimization to enhance operational efficiency.
             </p>
           </div>
         </div>
