@@ -39,6 +39,7 @@
     ]
   },
   "devDependencies": {
-    "eslint-plugin-jest": "^28.9.0"
+    "eslint-plugin-jest": "^28.9.0",
+    "npm-check-updates": "^17.1.10"
   }
 }
